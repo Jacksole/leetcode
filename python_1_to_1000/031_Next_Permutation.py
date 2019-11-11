@@ -39,3 +39,8 @@ class Solution(object):
             nums[left], nums[right] = nums[right], nums[left]
             left += 1
             right -= 1
+
+
+if __name__ == '__main__':
+    nums = 1,2,3
+    print(Solution.nextPermutation(nums))

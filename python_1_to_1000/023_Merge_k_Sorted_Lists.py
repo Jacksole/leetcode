@@ -9,12 +9,13 @@ _project_ = 'leetcode'
 # Space - O(k) for heap of k nodes
 
 # Definition for singly-linked list.
+import heapq
+
 class ListNode(object):
     def __init__(self, x):
         self.val = x
         self.next = None
 
-import heapq
 
 class Solution(object):
     def mergeKLists(self, lists):
