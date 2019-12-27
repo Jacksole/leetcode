@@ -35,9 +35,6 @@ class Solution(object):
         return max_length
 
 
-if __name__ == '__main__':
-    s = ")()())"i
-    print(Solution.longestValidParentheses())
 
 
 

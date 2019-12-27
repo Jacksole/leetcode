@@ -1,6 +1,7 @@
 _author_ = 'jake'
 _project_ = 'leetcode'
 
+
 # https://leetcode.com/problems/search-in-rotated-sorted-array/
 # Suppose a sorted array is rotated at some pivot unknown to you beforehand.
 # (i.e., 0 1 2 4 5 6 7 might become 4 5 6 7 0 1 2).
@@ -12,6 +13,9 @@ _project_ = 'leetcode'
 # Space - O(1)
 
 class Solution(object):
+    def __init__(self):
+        pass
+
     def search(self, nums, target):
         """
         :type nums: List[int]
@@ -39,5 +43,6 @@ class Solution(object):
                     right = mid - 1
 
         return -1
+
 
 
